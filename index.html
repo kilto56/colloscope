@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colloscope</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer type="module"></script>
+
+    <meta name="icon" href="./logo.png" type="image/png"> 
+
+    <script src="https://kit.fontawesome.com/4f9ce9048d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Colloscope Tool MP2I</h1>
+    </header>
+    <main>
+        <section>
+            <h2>INFO ELEVES</h2>
+            <div class="contain">
+                <div>
+                    <p>CHERCHER UN ELEVE</p>
+                    <div class="search">
+                        <input type="text" placeholder="Nom de l'élève">
+                        <button id="search-student"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                    
+                </div>
+                <div>
+                    <p>CHERCHER GROUPE</p>
+                    <div class="search">
+                        <input type="number" min="1" max="15" placeholder="Numéro du groupe">
+                        <button id="search-group"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>AUTRES RECHERCHES</h2>
+            <div class="contain">
+                <div>
+                    <p>CHERCHER PAR PROFESSEUR</p>
+                    <div class="search">
+                        <input type="text" placeholder="Nom du Professeur">
+                        <button id="search-prof"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </div>
+                <div>
+                    <p>CHERCHER PAR SALLE</p>
+                    <div class="search">
+                        <input type="text" placeholder="Nom de la salle">
+                        <button id="search-salle"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </div>
+                <div>
+                    <p>CHERCHER PAR SEMAINE</p>
+                    <div class="search">
+                        <input type="number" min="1" max="14" placeholder="Numéro de la semaine">
+                        <button id="search-semaine"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </div>
+                <div>
+                    <p>CHERCHER PAR CODE</p>
+                    <div class="search">
+                        <input type="text" placeholder="Numéro de code">
+                        <button id="search-code"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>RESULTAT</h2>
+            <div class="resultat">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026-2027 Colloscope Tool MP2I. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
