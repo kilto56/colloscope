@@ -10,7 +10,7 @@
             "Professeur": "Mme MATHEZ",
             "creneau": "Mercredi 14h",
             "duree": "2h",
-            "salle": "E 004"
+            "salle": "E 005"
         }
     },
 
@@ -31,9 +31,193 @@
             "Professeur": "M. BOURDON",
             "creneau": "Lundi 12h",
             "duree": "1h",
-            "salle": "B 107"
+            "salle": "H 204"
         },
         "M4": {
+            "Professeur": "M. BOURDON",
+            "creneau": "Lundi 13h",
+            "duree": "1h",
+            "salle": "H 204"
+        },
+        "M5": {
+            "Professeur": "M. CHMURA",
+            "creneau": "Mercredi 14h",
+            "duree": "1h",
+            "salle": "H 206"
+        },
+        "M6": {
+            "Professeur": "M. CHMURA",
+            "creneau": "Mercredi 15h",
+            "duree": "1h",
+            "salle": "H 206"
+        },
+        "M7": {
+            "Professeur": "M. COSSON",
+            "creneau": "Mercredi 13h45",
+            "duree": "1h",
+            "salle": "B 106"
+        },
+        "M8": {
+            "Professeur": "M. COSSON",
+            "creneau": "Mercredi 14h45",
+            "duree": "1h",
+            "salle": "B 106"
+        },
+        "M9": {
+            "Professeur": "Mme LE GAREC",
+            "creneau": "Mercredi 16h45",
+            "duree": "1h",
+            "salle": "B 118"
+        },
+        "M10": {
+            "Professeur": "Mme LE GAREC",
+            "creneau": "Mercredi 17h45",
+            "duree": "1h",
+            "salle": "B 118"
+        },
+        "M11": {
+            "Professeur": "M. PERIGNON",
+            "creneau": "Mercredi 14h",
+            "duree": "1h",
+            "salle": "B 118"
+        },
+        "M12": {
+            "Professeur": "M. PERIGNON",
+            "creneau": "Mercredi 15h",
+            "duree": "1h",
+            "salle": "B 118"
+        }
+    },
+
+    "informatique": {
+        "I1": {
+            "Professeur": "M. LE SCORNET",
+            "creneau": "Vendredi 12h",
+            "duree": "1h",
+            "salle": "H 210"
+        },
+        "I2": {
+            "Professeur": "M. DEPRES",
+            "creneau": "Mercredi 13h45",
+            "duree": "1h",
+            "salle": "H 207"
+        },
+        "I3": {
+            "Professeur": "M. VINCENT",
+            "creneau": "Mercredi 16h15",
+            "duree": "1h",
+            "salle": "H 210"
+        },
+        "I4": {
+            "Professeur": "M. VINCENT",
+            "creneau": "Mercredi 17h15",
+            "duree": "1h",
+            "salle": "H 210"
+        }
+    },
+
+    "physique": {
+        "P1": {
+            "Professeur": "M. BOUILLON",
+            "creneau": "Mercredi 13h45",
+            "duree": "1h",
+            "salle": "H 202"
+        },
+        "P2": {
+            "Professeur": "M. BOUILLON",
+            "creneau": "Mercredi 15h",
+            "duree": "1h",
+            "salle": "H 202"
+        },
+        "P3": {
+            "Professeur": "M. BOUILLON",
+            "creneau": "Mercredi 16h",
+            "duree": "1h",
+            "salle": "H 202"
+        },
+        "P4": {
+            "Professeur": "M. BOUILLON",
+            "creneau": "Mercredi 17h",
+            "duree": "1h",
+            "salle": "H 202"
+        },
+        "P5": {
+            "Professeur": "Mme ROCHON",
+            "creneau": "Mercredi 14h",
+            "duree": "1h",
+            "salle": "E 003"
+        },
+        "P6": {
+            "Professeur": "M. LOGE",
+            "creneau": "Mercredi 14h",
+            "duree": "1h",
+            "salle": "H 207bis"
+        },
+        "P7": {
+            "Professeur": "M. MORIN",
+            "creneau": "Mardi 18h",
+            "duree": "1h",
+            "salle": "H 206"
+        },
+        "P8": {
+            "Professeur": "Mme PARISSE",
+            "creneau": "Mercredi 15h",
+            "duree": "1h",
+            "salle": "H 207bis"
+        }
+    },
+
+    "anglais": {
+        "A1": {
+            "Professeur": "Mme BURLOT",
+            "creneau": "Vendredi 12h",
+            "duree": "1h",
+            "salle": "B 208"
+        },
+        "A2": {
+            "Professeur": "M. CHOMAT",
+            "creneau": "Mardi 12h",
+            "duree": "1h",
+            "salle": "E 201"
+        },
+        "A3": {
+            "Professeur": "Mme DUNSMORE",
+            "creneau": "Mercredi 14h15",
+            "duree": "1h",
+            "salle": "B 206"
+        },
+        "A4": {
+            "Professeur": "Mme MOREL",
+            "creneau": "Lundi 12h",
+            "duree": "1h",
+            "salle": "B 203"
+        },
+        "A5": {
+            "Professeur": "Mme MOREL",
+            "creneau": "Mardi 12h",
+            "duree": "1h",
+            "salle": "B 201"
+        },
+        "A6": {
+            "Professeur": "Mme RICHARD",
+            "creneau": "Mercredi 14h",
+            "duree": "1h",
+            "salle": "B 202"
+        },
+        "A7": {
+            "Professeur": "Mme RICHARD",
+            "creneau": "Mercredi 15h",
+            "duree": "1h",
+            "salle": "B 202"
+        },
+        "A8": {
+            "Professeur": "Mme WHITE",
+            "creneau": "Mardi 12h",
+            "duree": "1h",
+            "salle": "B 202"
+        }
+    }
+}
             "Professeur": "M. BOURDON",
             "creneau": "Lundi 13h",
             "duree": "1h",
