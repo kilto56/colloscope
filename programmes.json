@@ -689,6 +689,1767 @@
             ],
             "semaine8": [
                 "M11",
+                "P3"
+            ],
+            "semaine9": [
+                "I1",
+                "A6"
+            ],
+            "semaine10": [
+                "M5",
+                "P7"
+            ],
+            "semaine11": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "semaine12": [
+                "M1",
+                "P2"
+            ],
+            "semaine13": [
+                "I4",
+                "A8"
+            ],
+            "semaine14": [
+                "M10",
+                "P8"
+            ]
+        },
+        "13": {
+            "semaine1": [
+                "M12",
+                "P1"
+            ],
+            "semaine2": [
+                "I2",
+                "A7"
+            ],
+            "semaine3": [
+                "M6",
+                "P5"
+            ],
+            "semaine4": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "semaine5": [
+                "M2",
+                "P3"
+            ],
+            "semaine6": [
+                "I3",
+                "A5"
+            ],
+            "semaine7": [
+                "M9",
+                "P6"
+            ],
+            "semaine8": [
+                "M7",
+                "A2"
+            ],
+            "semaine9": [
+                "M11",
+                "P4"
+            ],
+            "semaine10": [
+                "I1",
+                "A6"
+            ],
+            "semaine11": [
+                "M5",
+                "P7"
+            ],
+            "semaine12": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "semaine13": [
+                "M1",
+                "P2"
+            ],
+            "semaine14": [
+                "I4",
+                "A8"
+            ]
+        },
+        "14": {
+            "semaine1": [
+                "M8",
+                "A4"
+            ],
+            "semaine2": [
+                "M12",
+                "P1"
+            ],
+            "semaine3": [
+                "I2",
+                "A7"
+            ],
+            "semaine4": [
+                "M6",
+                "P5"
+            ],
+            "semaine5": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "semaine6": [
+                "M2",
+                "P3"
+            ],
+            "semaine7": [
+                "I3",
+                "A5"
+            ],
+            "semaine8": [
+                "M9",
+                "P6"
+            ],
+            "semaine9": [
+                "M7",
+                "A2"
+            ],
+            "semaine10": [
+                "M11",
+                "P4"
+            ],
+            "semaine11": [
+                "I1",
+                "A6"
+            ],
+            "semaine12": [
+                "M5",
+                "P7"
+            ],
+            "semaine13": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "semaine14": [
+                "M1",
+                "P2"
+            ]
+        },
+        "15": {
+            "semaine1": [
+                "M10",
+                "P8"
+            ],
+            "semaine2": [
+                "M8",
+                "A4"
+            ],
+            "semaine3": [
+                "M12",
+                "P1"
+            ],
+            "semaine4": [
+                "I2",
+                "A7"
+            ],
+            "semaine5": [
+                "M6",
+                "P5"
+            ],
+            "semaine6": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "semaine7": [
+                "M2",
+                "P3"
+            ],
+            "semaine8": [
+                "I3",
+                "A5"
+            ],
+            "semaine9": [
+                "M9",
+                "P6"
+            ],
+            "semaine10": [
+                "M7",
+                "A2"
+            ],
+            "semaine11": [
+                "M11",
+                "P4"
+            ],
+            "semaine12": [
+                "I1",
+                "A6"
+            ],
+            "semaine13": [
+                "M5",
+                "P7"
+            ],
+            "semaine14": [
+                "M3",
+                "A1",
+                "F2"
+            ]
+        }
+    },
+    "semaines": {
+        "1": {
+            "groupe1": [
+                "M1",
+                "P2"
+            ],
+            "groupe2": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "groupe3": [
+                "M5",
+                "P7"
+            ],
+            "groupe4": [
+                "I1",
+                "A6"
+            ],
+            "groupe5": [
+                "M11",
+                "P4"
+            ],
+            "groupe6": [
+                "M7",
+                "A2"
+            ],
+            "groupe7": [
+                "M9",
+                "P6"
+            ],
+            "groupe8": [
+                "I3",
+                "A5"
+            ],
+            "groupe9": [
+                "M2",
+                "P3"
+            ],
+            "groupe10": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "groupe11": [
+                "M6",
+                "P5"
+            ],
+            "groupe12": [
+                "I2",
+                "A7"
+            ],
+            "groupe13": [
+                "M12",
+                "P1"
+            ],
+            "groupe14": [
+                "M8",
+                "A4"
+            ],
+            "groupe15": [
+                "M10",
+                "P8"
+            ]
+        },
+        "2": {
+            "groupe1": [
+                "I4",
+                "A8"
+            ],
+            "groupe2": [
+                "M1",
+                "P2"
+            ],
+            "groupe3": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "groupe4": [
+                "M5",
+                "P7"
+            ],
+            "groupe5": [
+                "I1",
+                "A6"
+            ],
+            "groupe6": [
+                "M11",
+                "P4"
+            ],
+            "groupe7": [
+                "M7",
+                "A2"
+            ],
+            "groupe8": [
+                "M9",
+                "P6"
+            ],
+            "groupe9": [
+                "I3",
+                "A5"
+            ],
+            "groupe10": [
+                "M2",
+                "P3"
+            ],
+            "groupe11": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "groupe12": [
+                "M6",
+                "P5"
+            ],
+            "groupe13": [
+                "I2",
+                "A7"
+            ],
+            "groupe14": [
+                "M12",
+                "P1"
+            ],
+            "groupe15": [
+                "M8",
+                "A4"
+            ]
+        },
+        "3": {
+            "groupe1": [
+                "M10",
+                "P8"
+            ],
+            "groupe2": [
+                "I4",
+                "A8"
+            ],
+            "groupe3": [
+                "M1",
+                "P2"
+            ],
+            "groupe4": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "groupe5": [
+                "M5",
+                "P7"
+            ],
+            "groupe6": [
+                "I1",
+                "A6"
+            ],
+            "groupe7": [
+                "M11",
+                "P4"
+            ],
+            "groupe8": [
+                "M7",
+                "A2"
+            ],
+            "groupe9": [
+                "M9",
+                "P6"
+            ],
+            "groupe10": [
+                "I3",
+                "A5"
+            ],
+            "groupe11": [
+                "M2",
+                "P3"
+            ],
+            "groupe12": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "groupe13": [
+                "M6",
+                "P5"
+            ],
+            "groupe14": [
+                "I2",
+                "A7"
+            ],
+            "groupe15": [
+                "M12",
+                "P1"
+            ]
+        },
+        "4": {
+            "groupe1": [
+                "M8",
+                "A4"
+            ],
+            "groupe2": [
+                "M10",
+                "P8"
+            ],
+            "groupe3": [
+                "I4",
+                "A8"
+            ],
+            "groupe4": [
+                "M1",
+                "P2"
+            ],
+            "groupe5": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "groupe6": [
+                "M5",
+                "P7"
+            ],
+            "groupe7": [
+                "I1",
+                "A6"
+            ],
+            "groupe8": [
+                "M11",
+                "P4"
+            ],
+            "groupe9": [
+                "M7",
+                "A2"
+            ],
+            "groupe10": [
+                "M9",
+                "P6"
+            ],
+            "groupe11": [
+                "I3",
+                "A5"
+            ],
+            "groupe12": [
+                "M2",
+                "P3"
+            ],
+            "groupe13": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "groupe14": [
+                "M6",
+                "P5"
+            ],
+            "groupe15": [
+                "I2",
+                "A7"
+            ]
+        },
+        "5": {
+            "groupe1": [
+                "M12",
+                "P1"
+            ],
+            "groupe2": [
+                "M8",
+                "A4"
+            ],
+            "groupe3": [
+                "M10",
+                "P8"
+            ],
+            "groupe4": [
+                "I4",
+                "A8"
+            ],
+            "groupe5": [
+                "M1",
+                "P2"
+            ],
+            "groupe6": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "groupe7": [
+                "M5",
+                "P7"
+            ],
+            "groupe8": [
+                "I1",
+                "A6"
+            ],
+            "groupe9": [
+                "M11",
+                "P4"
+            ],
+            "groupe10": [
+                "M7",
+                "A2"
+            ],
+            "groupe11": [
+                "M9",
+                "P6"
+            ],
+            "groupe12": [
+                "I3",
+                "A5"
+            ],
+            "groupe13": [
+                "M2",
+                "P3"
+            ],
+            "groupe14": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "groupe15": [
+                "M6",
+                "P5"
+            ]
+        },
+        "6": {
+            "groupe1": [
+                "I2",
+                "A7"
+            ],
+            "groupe2": [
+                "M12",
+                "P1"
+            ],
+            "groupe3": [
+                "M8",
+                "A4"
+            ],
+            "groupe4": [
+                "M10",
+                "P8"
+            ],
+            "groupe5": [
+                "I4",
+                "A8"
+            ],
+            "groupe6": [
+                "M1",
+                "P2"
+            ],
+            "groupe7": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "groupe8": [
+                "M5",
+                "P7"
+            ],
+            "groupe9": [
+                "I1",
+                "A6"
+            ],
+            "groupe10": [
+                "M11",
+                "P4"
+            ],
+            "groupe11": [
+                "M7",
+                "A2"
+            ],
+            "groupe12": [
+                "M9",
+                "P6"
+            ],
+            "groupe13": [
+                "I3",
+                "A5"
+            ],
+            "groupe14": [
+                "M2",
+                "P3"
+            ],
+            "groupe15": [
+                "M4",
+                "A3",
+                "F1"
+            ]
+        },
+        "7": {
+            "groupe1": [
+                "M6",
+                "P5"
+            ],
+            "groupe2": [
+                "I2",
+                "A7"
+            ],
+            "groupe3": [
+                "M12",
+                "P1"
+            ],
+            "groupe4": [
+                "M8",
+                "A4"
+            ],
+            "groupe5": [
+                "M10",
+                "P8"
+            ],
+            "groupe6": [
+                "I4",
+                "A8"
+            ],
+            "groupe7": [
+                "M1",
+                "P2"
+            ],
+            "groupe8": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "groupe9": [
+                "M5",
+                "P7"
+            ],
+            "groupe10": [
+                "I1",
+                "A6"
+            ],
+            "groupe11": [
+                "M11",
+                "P4"
+            ],
+            "groupe12": [
+                "M7",
+                "A2"
+            ],
+            "groupe13": [
+                "M9",
+                "P6"
+            ],
+            "groupe14": [
+                "I3",
+                "A5"
+            ],
+            "groupe15": [
+                "M2",
+                "P3"
+            ]
+        },
+        "8": {
+            "groupe1": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "groupe2": [
+                "M6",
+                "P5"
+            ],
+            "groupe3": [
+                "I2",
+                "A7"
+            ],
+            "groupe4": [
+                "M12",
+                "P1"
+            ],
+            "groupe5": [
+                "M8",
+                "A4"
+            ],
+            "groupe6": [
+                "M10",
+                "P8"
+            ],
+            "groupe7": [
+                "I4",
+                "A8"
+            ],
+            "groupe8": [
+                "M1",
+                "P2"
+            ],
+            "groupe9": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "groupe10": [
+                "M5",
+                "P7"
+            ],
+            "groupe11": [
+                "I1",
+                "A6"
+            ],
+            "groupe12": [
+                "M11",
+                "P3"
+            ],
+            "groupe13": [
+                "M7",
+                "A2"
+            ],
+            "groupe14": [
+                "M9",
+                "P6"
+            ],
+            "groupe15": [
+                "I3",
+                "A5"
+            ]
+        },
+        "9": {
+            "groupe1": [
+                "M2",
+                "P3"
+            ],
+            "groupe2": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "groupe3": [
+                "M6",
+                "P5"
+            ],
+            "groupe4": [
+                "I2",
+                "A7"
+            ],
+            "groupe5": [
+                "M12",
+                "P1"
+            ],
+            "groupe6": [
+                "M8",
+                "A4"
+            ],
+            "groupe7": [
+                "M10",
+                "P8"
+            ],
+            "groupe8": [
+                "I4",
+                "A8"
+            ],
+            "groupe9": [
+                "M1",
+                "P2"
+            ],
+            "groupe10": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "groupe11": [
+                "M5",
+                "P7"
+            ],
+            "groupe12": [
+                "I1",
+                "A6"
+            ],
+            "groupe13": [
+                "M11",
+                "P4"
+            ],
+            "groupe14": [
+                "M7",
+                "A2"
+            ],
+            "groupe15": [
+                "M9",
+                "P6"
+            ]
+        },
+        "10": {
+            "groupe1": [
+                "I3",
+                "A5"
+            ],
+            "groupe2": [
+                "M2",
+                "P3"
+            ],
+            "groupe3": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "groupe4": [
+                "M6",
+                "P5"
+            ],
+            "groupe5": [
+                "I2",
+                "A7"
+            ],
+            "groupe6": [
+                "M12",
+                "P1"
+            ],
+            "groupe7": [
+                "M8",
+                "A4"
+            ],
+            "groupe8": [
+                "M10",
+                "P8"
+            ],
+            "groupe9": [
+                "I4",
+                "A8"
+            ],
+            "groupe10": [
+                "M1",
+                "P2"
+            ],
+            "groupe11": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "groupe12": [
+                "M5",
+                "P7"
+            ],
+            "groupe13": [
+                "I1",
+                "A6"
+            ],
+            "groupe14": [
+                "M11",
+                "P4"
+            ],
+            "groupe15": [
+                "M7",
+                "A2"
+            ]
+        },
+        "11": {
+            "groupe1": [
+                "M9",
+                "P6"
+            ],
+            "groupe2": [
+                "I3",
+                "A5"
+            ],
+            "groupe3": [
+                "M2",
+                "P3"
+            ],
+            "groupe4": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "groupe5": [
+                "M6",
+                "P5"
+            ],
+            "groupe6": [
+                "I2",
+                "A7"
+            ],
+            "groupe7": [
+                "M12",
+                "P1"
+            ],
+            "groupe8": [
+                "M8",
+                "A4"
+            ],
+            "groupe9": [
+                "M10",
+                "P8"
+            ],
+            "groupe10": [
+                "I4",
+                "A8"
+            ],
+            "groupe11": [
+                "M1",
+                "P2"
+            ],
+            "groupe12": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "groupe13": [
+                "M5",
+                "P7"
+            ],
+            "groupe14": [
+                "I1",
+                "A6"
+            ],
+            "groupe15": [
+                "M11",
+                "P4"
+            ]
+        },
+        "12": {
+            "groupe1": [
+                "M7",
+                "A2"
+            ],
+            "groupe2": [
+                "M9",
+                "P6"
+            ],
+            "groupe3": [
+                "I3",
+                "A5"
+            ],
+            "groupe4": [
+                "M2",
+                "P3"
+            ],
+            "groupe5": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "groupe6": [
+                "M6",
+                "P5"
+            ],
+            "groupe7": [
+                "I2",
+                "A7"
+            ],
+            "groupe8": [
+                "M12",
+                "P1"
+            ],
+            "groupe9": [
+                "M8",
+                "A4"
+            ],
+            "groupe10": [
+                "M10",
+                "P8"
+            ],
+            "groupe11": [
+                "I4",
+                "A8"
+            ],
+            "groupe12": [
+                "M1",
+                "P2"
+            ],
+            "groupe13": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "groupe14": [
+                "M5",
+                "P7"
+            ],
+            "groupe15": [
+                "I1",
+                "A6"
+            ]
+        },
+        "13": {
+            "groupe1": [
+                "M11",
+                "P4"
+            ],
+            "groupe2": [
+                "M7",
+                "A2"
+            ],
+            "groupe3": [
+                "M9",
+                "P6"
+            ],
+            "groupe4": [
+                "I3",
+                "A5"
+            ],
+            "groupe5": [
+                "M2",
+                "P3"
+            ],
+            "groupe6": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "groupe7": [
+                "M6",
+                "P5"
+            ],
+            "groupe8": [
+                "I2",
+                "A7"
+            ],
+            "groupe9": [
+                "M12",
+                "P1"
+            ],
+            "groupe10": [
+                "M8",
+                "A4"
+            ],
+            "groupe11": [
+                "M10",
+                "P8"
+            ],
+            "groupe12": [
+                "I4",
+                "A8"
+            ],
+            "groupe13": [
+                "M1",
+                "P2"
+            ],
+            "groupe14": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "groupe15": [
+                "M5",
+                "P7"
+            ]
+        },
+        "14": {
+            "groupe1": [
+                "I1",
+                "A6"
+            ],
+            "groupe2": [
+                "M11",
+                "P4"
+            ],
+            "groupe3": [
+                "M7",
+                "A2"
+            ],
+            "groupe4": [
+                "M9",
+                "P6"
+            ],
+            "groupe5": [
+                "I3",
+                "A5"
+            ],
+            "groupe6": [
+                "M2",
+                "P3"
+            ],
+            "groupe7": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "groupe8": [
+                "M6",
+                "P5"
+            ],
+            "groupe9": [
+                "I2",
+                "A7"
+            ],
+            "groupe10": [
+                "M12",
+                "P1"
+            ],
+            "groupe11": [
+                "M8",
+                "A4"
+            ],
+            "groupe12": [
+                "M10",
+                "P8"
+            ],
+            "groupe13": [
+                "I4",
+                "A8"
+            ],
+            "groupe14": [
+                "M1",
+                "P2"
+            ],
+            "groupe15": [
+                "M3",
+                "A1",
+                "F2"
+            ]
+        }
+    }
+        }            "semaine9": [
+                "M2",
+                "P3"
+            ],
+            "semaine10": [
+                "I3",
+                "A5"
+            ],
+            "semaine11": [
+                "M9",
+                "P6"
+            ],
+            "semaine12": [
+                "M7",
+                "A2"
+            ],
+            "semaine13": [
+                "M11",
+                "P4"
+            ],
+            "semaine14": [
+                "I1",
+                "A6"
+            ]
+        },
+        "2": {
+            "semaine1": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "semaine2": [
+                "M1",
+                "P2"
+            ],
+            "semaine3": [
+                "I4",
+                "A8"
+            ],
+            "semaine4": [
+                "M10",
+                "P8"
+            ],
+            "semaine5": [
+                "M8",
+                "A4"
+            ],
+            "semaine6": [
+                "M12",
+                "P1"
+            ],
+            "semaine7": [
+                "I2",
+                "A7"
+            ],
+            "semaine8": [
+                "M6",
+                "P5"
+            ],
+            "semaine9": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "semaine10": [
+                "M2",
+                "P3"
+            ],
+            "semaine11": [
+                "I3",
+                "A5"
+            ],
+            "semaine12": [
+                "M9",
+                "P6"
+            ],
+            "semaine13": [
+                "M7",
+                "A2"
+            ],
+            "semaine14": [
+                "M11",
+                "P4"
+            ]
+        },
+        "3": {
+            "semaine1": [
+                "M5",
+                "P7"
+            ],
+            "semaine2": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "semaine3": [
+                "M1",
+                "P2"
+            ],
+            "semaine4": [
+                "I4",
+                "A8"
+            ],
+            "semaine5": [
+                "M10",
+                "P8"
+            ],
+            "semaine6": [
+                "M8",
+                "A4"
+            ],
+            "semaine7": [
+                "M12",
+                "P1"
+            ],
+            "semaine8": [
+                "I2",
+                "A7"
+            ],
+            "semaine9": [
+                "M6",
+                "P5"
+            ],
+            "semaine10": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "semaine11": [
+                "M2",
+                "P3"
+            ],
+            "semaine12": [
+                "I3",
+                "A5"
+            ],
+            "semaine13": [
+                "M9",
+                "P6"
+            ],
+            "semaine14": [
+                "M7",
+                "A2"
+            ]
+        },
+        "4": {
+            "semaine1": [
+                "I1",
+                "A6"
+            ],
+            "semaine2": [
+                "M5",
+                "P7"
+            ],
+            "semaine3": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "semaine4": [
+                "M1",
+                "P2"
+            ],
+            "semaine5": [
+                "I4",
+                "A8"
+            ],
+            "semaine6": [
+                "M10",
+                "P8"
+            ],
+            "semaine7": [
+                "M8",
+                "A4"
+            ],
+            "semaine8": [
+                "M12",
+                "P1"
+            ],
+            "semaine9": [
+                "I2",
+                "A7"
+            ],
+            "semaine10": [
+                "M6",
+                "P5"
+            ],
+            "semaine11": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "semaine12": [
+                "M2",
+                "P3"
+            ],
+            "semaine13": [
+                "I3",
+                "A5"
+            ],
+            "semaine14": [
+                "M9",
+                "P6"
+            ]
+        },
+        "5": {
+            "semaine1": [
+                "M11",
+                "P4"
+            ],
+            "semaine2": [
+                "I1",
+                "A6"
+            ],
+            "semaine3": [
+                "M5",
+                "P7"
+            ],
+            "semaine4": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "semaine5": [
+                "M1",
+                "P2"
+            ],
+            "semaine6": [
+                "I4",
+                "A8"
+            ],
+            "semaine7": [
+                "M10",
+                "P8"
+            ],
+            "semaine8": [
+                "M8",
+                "A4"
+            ],
+            "semaine9": [
+                "M12",
+                "P1"
+            ],
+            "semaine10": [
+                "I2",
+                "A7"
+            ],
+            "semaine11": [
+                "M6",
+                "P5"
+            ],
+            "semaine12": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "semaine13": [
+                "M2",
+                "P3"
+            ],
+            "semaine14": [
+                "I3",
+                "A5"
+            ]
+        },
+        "6": {
+            "semaine1": [
+                "M7",
+                "A2"
+            ],
+            "semaine2": [
+                "M11",
+                "P4"
+            ],
+            "semaine3": [
+                "I1",
+                "A6"
+            ],
+            "semaine4": [
+                "M5",
+                "P7"
+            ],
+            "semaine5": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "semaine6": [
+                "M1",
+                "P2"
+            ],
+            "semaine7": [
+                "I4",
+                "A8"
+            ],
+            "semaine8": [
+                "M10",
+                "P8"
+            ],
+            "semaine9": [
+                "M8",
+                "A4"
+            ],
+            "semaine10": [
+                "M12",
+                "P1"
+            ],
+            "semaine11": [
+                "I2",
+                "A7"
+            ],
+            "semaine12": [
+                "M6",
+                "P5"
+            ],
+            "semaine13": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "semaine14": [
+                "M2",
+                "P3"
+            ]
+        },
+        "7": {
+            "semaine1": [
+                "M9",
+                "P6"
+            ],
+            "semaine2": [
+                "M7",
+                "A2"
+            ],
+            "semaine3": [
+                "M11",
+                "P4"
+            ],
+            "semaine4": [
+                "I1",
+                "A6"
+            ],
+            "semaine5": [
+                "M5",
+                "P7"
+            ],
+            "semaine6": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "semaine7": [
+                "M1",
+                "P2"
+            ],
+            "semaine8": [
+                "I4",
+                "A8"
+            ],
+            "semaine9": [
+                "M10",
+                "P8"
+            ],
+            "semaine10": [
+                "M8",
+                "A4"
+            ],
+            "semaine11": [
+                "M12",
+                "P1"
+            ],
+            "semaine12": [
+                "I2",
+                "A7"
+            ],
+            "semaine13": [
+                "M6",
+                "P5"
+            ],
+            "semaine14": [
+                "M4",
+                "A3",
+                "F1"
+            ]
+        },
+        "8": {
+            "semaine1": [
+                "I3",
+                "A5"
+            ],
+            "semaine2": [
+                "M9",
+                "P6"
+            ],
+            "semaine3": [
+                "M7",
+                "A2"
+            ],
+            "semaine4": [
+                "M11",
+                "P4"
+            ],
+            "semaine5": [
+                "I1",
+                "A6"
+            ],
+            "semaine6": [
+                "M5",
+                "P7"
+            ],
+            "semaine7": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "semaine8": [
+                "M1",
+                "P2"
+            ],
+            "semaine9": [
+                "I4",
+                "A8"
+            ],
+            "semaine10": [
+                "M10",
+                "P8"
+            ],
+            "semaine11": [
+                "M8",
+                "A4"
+            ],
+            "semaine12": [
+                "M12",
+                "P1"
+            ],
+            "semaine13": [
+                "I2",
+                "A7"
+            ],
+            "semaine14": [
+                "M6",
+                "P5"
+            ]
+        },
+        "9": {
+            "semaine1": [
+                "M2",
+                "P3"
+            ],
+            "semaine2": [
+                "I3",
+                "A5"
+            ],
+            "semaine3": [
+                "M9",
+                "P6"
+            ],
+            "semaine4": [
+                "M7",
+                "A2"
+            ],
+            "semaine5": [
+                "M11",
+                "P4"
+            ],
+            "semaine6": [
+                "I1",
+                "A6"
+            ],
+            "semaine7": [
+                "M5",
+                "P7"
+            ],
+            "semaine8": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "semaine9": [
+                "M1",
+                "P2"
+            ],
+            "semaine10": [
+                "I4",
+                "A8"
+            ],
+            "semaine11": [
+                "M10",
+                "P8"
+            ],
+            "semaine12": [
+                "M8",
+                "A4"
+            ],
+            "semaine13": [
+                "M12",
+                "P1"
+            ],
+            "semaine14": [
+                "I2",
+                "A7"
+            ]
+        },
+        "10": {
+            "semaine1": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "semaine2": [
+                "M2",
+                "P3"
+            ],
+            "semaine3": [
+                "I3",
+                "A5"
+            ],
+            "semaine4": [
+                "M9",
+                "P6"
+            ],
+            "semaine5": [
+                "M7",
+                "A2"
+            ],
+            "semaine6": [
+                "M11",
+                "P4"
+            ],
+            "semaine7": [
+                "I1",
+                "A6"
+            ],
+            "semaine8": [
+                "M5",
+                "P7"
+            ],
+            "semaine9": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "semaine10": [
+                "M1",
+                "P2"
+            ],
+            "semaine11": [
+                "I4",
+                "A8"
+            ],
+            "semaine12": [
+                "M10",
+                "P8"
+            ],
+            "semaine13": [
+                "M8",
+                "A4"
+            ],
+            "semaine14": [
+                "M12",
+                "P1"
+            ]
+        },
+        "11": {
+            "semaine1": [
+                "M6",
+                "P5"
+            ],
+            "semaine2": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "semaine3": [
+                "M2",
+                "P3"
+            ],
+            "semaine4": [
+                "I3",
+                "A5"
+            ],
+            "semaine5": [
+                "M9",
+                "P6"
+            ],
+            "semaine6": [
+                "M7",
+                "A2"
+            ],
+            "semaine7": [
+                "M11",
+                "P4"
+            ],
+            "semaine8": [
+                "I1",
+                "A6"
+            ],
+            "semaine9": [
+                "M5",
+                "P7"
+            ],
+            "semaine10": [
+                "M3",
+                "A1",
+                "F2"
+            ],
+            "semaine11": [
+                "M1",
+                "P2"
+            ],
+            "semaine12": [
+                "I4",
+                "A8"
+            ],
+            "semaine13": [
+                "M10",
+                "P8"
+            ],
+            "semaine14": [
+                "M8",
+                "A4"
+            ]
+        },
+        "12": {
+            "semaine1": [
+                "I2",
+                "A7"
+            ],
+            "semaine2": [
+                "M6",
+                "P5"
+            ],
+            "semaine3": [
+                "M4",
+                "A3",
+                "F1"
+            ],
+            "semaine4": [
+                "M2",
+                "P3"
+            ],
+            "semaine5": [
+                "I3",
+                "A5"
+            ],
+            "semaine6": [
+                "M9",
+                "P6"
+            ],
+            "semaine7": [
+                "M7",
+                "A2"
+            ],
+            "semaine8": [
+                "M11",
                 "P4"
             ],
             "semaine9": [
