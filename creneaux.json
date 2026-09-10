@@ -10,7 +10,7 @@
             "Professeur": "Mme MATHEZ",
             "creneau": "Mercredi 14h",
             "duree": "2h",
-            "salle": "E 004"
+            "salle": "E 005"
         }
     },
 
@@ -31,13 +31,13 @@
             "Professeur": "M. BOURDON",
             "creneau": "Lundi 12h",
             "duree": "1h",
-            "salle": "B 107"
+            "salle": "H 204"
         },
         "M4": {
             "Professeur": "M. BOURDON",
             "creneau": "Lundi 13h",
             "duree": "1h",
-            "salle": "B 107"
+            "salle": "H 204"
         },
         "M5": {
             "Professeur": "M. CHMURA",
@@ -119,27 +119,27 @@
     "physique": {
         "P1": {
             "Professeur": "M. BOUILLON",
-            "creneau": "Mercredi 14h",
+            "creneau": "Mercredi 13h45",
             "duree": "1h",
-            "salle": "??"
+            "salle": "H 202"
         },
         "P2": {
             "Professeur": "M. BOUILLON",
             "creneau": "Mercredi 15h",
             "duree": "1h",
-            "salle": "??"
+            "salle": "H 202"
         },
         "P3": {
             "Professeur": "M. BOUILLON",
             "creneau": "Mercredi 16h",
             "duree": "1h",
-            "salle": "??"
+            "salle": "H 202"
         },
         "P4": {
             "Professeur": "M. BOUILLON",
             "creneau": "Mercredi 17h",
             "duree": "1h",
-            "salle": "??"
+            "salle": "H 202"
         },
         "P5": {
             "Professeur": "Mme ROCHON",
@@ -151,19 +151,19 @@
             "Professeur": "M. LOGE",
             "creneau": "Mercredi 14h",
             "duree": "1h",
-            "salle": "??"
+            "salle": "H 207bis"
         },
         "P7": {
             "Professeur": "M. MORIN",
             "creneau": "Mardi 18h",
             "duree": "1h",
-            "salle": "??"
+            "salle": "H 206"
         },
         "P8": {
             "Professeur": "Mme PARISSE",
             "creneau": "Mercredi 15h",
             "duree": "1h",
-            "salle": "??"
+            "salle": "H 207bis"
         }
     },
 
