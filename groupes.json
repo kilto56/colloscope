@@ -256,3 +256,225 @@
         }
     }
 }
+        "3": {
+            "eleves": [
+                {
+                    "nom": "BOSCHER",
+                    "prenom": "Nathan"
+                },
+                {
+                    "nom": "CONTE",
+                    "prenom": "Maelys"
+                },
+                {
+                    "nom": "GUERARD",
+                    "prenom": "Lilwenn"
+                }
+            ]
+        },
+
+        "4": {
+            "eleves": [
+                {
+                    "nom": "BOTREL",
+                    "prenom": "Leon"
+                },
+                {
+                    "nom": "DUBREUIL JAMBON",
+                    "prenom": "Georges"
+                },
+                {
+                    "nom": "GUITTENY",
+                    "prenom": "Marc"
+                }
+            ]
+        },
+
+        "5": {
+            "eleves": [
+                {
+                    "nom": "CARO",
+                    "prenom": "Paolo"
+                },
+                {
+                    "nom": "EGEA-CHARTIER",
+                    "prenom": "Lorenzo"
+                },
+                {
+                    "nom": "IBNOU EL KHAYAT",
+                    "prenom": "Ismael"
+                }
+            ]
+        },
+
+        "6": {
+            "eleves": [
+                {
+                    "nom": "CARPRIAU",
+                    "prenom": "Rose"
+                },
+                {
+                    "nom": "FAVENNEC",
+                    "prenom": "Pierre"
+                },
+                {
+                    "nom": "JACOB",
+                    "prenom": "Luca"
+                }
+            ]
+        },
+
+        "7": {
+            "eleves": [
+                {
+                    "nom": "CHARRIER",
+                    "prenom": "Clement"
+                },
+                {
+                    "nom": "FIALA",
+                    "prenom": "Amaury"
+                },
+                {
+                    "nom": "JOUAN",
+                    "prenom": "Sioban"
+                }
+            ]
+        },
+
+        "8": {
+            "eleves": [
+                {
+                    "nom": "CHERIF",
+                    "prenom": "Elias"
+                },
+                {
+                    "nom": "GRANDGUILLAUME",
+                    "prenom": "Timeo"
+                },
+                {
+                    "nom": "JOUAN",
+                    "prenom": "Telio"
+                }
+            ]
+        },
+
+        "9": {
+            "eleves": [
+                {
+                    "nom": "KAMINSKI",
+                    "prenom": "Jeanne"
+                },
+                {
+                    "nom": "MALDEME",
+                    "prenom": "Killian"
+                },
+                {
+                    "nom": "RAMOUL",
+                    "prenom": "Timothee"
+                }
+            ]
+        },
+
+        "10": {
+            "eleves": [
+                {
+                    "nom": "LE BERRIGAUD",
+                    "prenom": "Malo"
+                },
+                {
+                    "nom": "MILLET",
+                    "prenom": "Gaston"
+                },
+                {
+                    "nom": "ROUSSEL",
+                    "prenom": "Pierre"
+                }
+            ]
+        },
+
+        "11": {
+            "eleves": [
+                {
+                    "nom": "LE BORGNE",
+                    "prenom": "Eliott"
+                },
+                {
+                    "nom": "PAKA",
+                    "prenom": "Gabriel"
+                },
+                {
+                    "nom": "ROY",
+                    "prenom": "Benjamin"
+                }
+            ]
+        },
+
+        "12": {
+            "eleves": [
+                {
+                    "nom": "LE GUEN",
+                    "prenom": "Oscar"
+                },
+                {
+                    "nom": "PELLETIER",
+                    "prenom": "Ilan"
+                },
+                {
+                    "nom": "SAWADOGO",
+                    "prenom": "Imrane"
+                }
+            ]
+        },
+
+        "13": {
+            "eleves": [
+                {
+                    "nom": "LE STRAT",
+                    "prenom": "Nathan"
+                },
+                {
+                    "nom": "PETIT",
+                    "prenom": "Lou"
+                },
+                {
+                    "nom": "SOCHELEAU",
+                    "prenom": "Axel"
+                }
+            ]
+        },
+
+        "14": {
+            "eleves": [
+                {
+                    "nom": "LEVIONNOIS",
+                    "prenom": "Eliott"
+                },
+                {
+                    "nom": "POIROT",
+                    "prenom": "Nathanael"
+                },
+                {
+                    "nom": "TATIBOUET",
+                    "prenom": "Tudi"
+                }
+            ]
+        },
+
+        "15": {
+            "eleves": [
+                {
+                    "nom": "LOHINOVA",
+                    "prenom": "Anastasiia"
+                },
+                {
+                    "nom": "QUILLEVERE",
+                    "prenom": "Adrien"
+                },
+                {
+                    "nom": "YORO",
+                    "prenom": "Louise"
+                }
+            ]
+        }
+    }
+}
