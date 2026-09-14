@@ -277,14 +277,15 @@ bindSearch('search-code', (value) => {
 //details/summary system, opened on mobile
 (() => {
     const allDetails = document.querySelectorAll('.sections-row > section > details');
+    const mobileQuery = window.matchMedia('(max-width: 700px)');
 
-    const applyResponsiveState = () => {
-        const isMobile = window.matchMedia('(max-width: 700px)').matches;
+    const applyResponsiveState = (isMobile) => {
         allDetails.forEach((details, index) => {
             details.open = isMobile ? index === 0 : true;
         });
     };
 
-    applyResponsiveState();
-    window.addEventListener('resize', applyResponsiveState);
+    applyResponsiveState(mobileQuery.matches);
+
+    mobileQuery.addEventListener('change', (e) => applyResponsiveState(e.matches));
 })();
