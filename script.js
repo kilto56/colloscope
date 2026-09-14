@@ -6,13 +6,17 @@ import {
     getPlanningSemaine,
     findByProf,
     findBySalle,
-    findGroupesByCode
+    findGroupesByCode,
+    searchCombined,
+    getCurrentWeek
 } from "./mod.js";
 
 const resultat = document.querySelector('.resultat');
+const resultatDetails = resultat.closest('details');
 
 const render = (html) => {
     resultat.innerHTML = html;
+    if (resultatDetails) resultatDetails.open = true;
 }
 
 const renderMessage = (msg) => {
@@ -65,13 +69,66 @@ const renderGroupePlanning = (numGroupe, planning) => {
 }
 
 
+const combineCheckbox = document.getElementById('combine-queries');
+
+// Recupere la valeur de tous les champs de recherche en une seule fois
+const getAllFilters = () => ({
+    eleveQuery: document.getElementById('input-student').value,
+    numGroupe: document.getElementById('input-group').value,
+    profQuery: document.getElementById('input-prof').value,
+    salleQuery: document.getElementById('input-salle').value,
+    semaine: document.getElementById('input-semaine').value,
+    code: document.getElementById('input-code').value
+});
+
+const hasAnyFilter = (filters) => Object.values(filters).some(v => v.trim());
+
+const renderCombinedResults = () => {
+    const filters = getAllFilters();
+    if (!hasAnyFilter(filters)) {
+        return renderMessage("Remplissez au moins un des champs de recherche ci-dessus.");
+    }
+
+    const results = searchCombined(filters);
+    if (results.length === 0) {
+        return renderMessage("Aucun résultat pour cette combinaison de critères.");
+    }
+
+    const rows = results.map(r => `
+        <tr>
+            <td>Gr ${r.numGroupe}</td>
+            <td>S${r.semaine}</td>
+            <td><span class="badge" data-matiere="${r.matiere}">${r.code}</span></td>
+            <td>${r.Professeur}</td>
+            <td>${r.creneau} (${r.duree})</td>
+            <td>${r.salle}</td>
+        </tr>
+    `).join('');
+
+    render(`
+        <h3>${results.length} résultat${results.length > 1 ? 's' : ''}</h3>
+        <table class="planning-table">
+            <thead><tr><th>Groupe</th><th>Semaine</th><th>Code</th><th>Prof</th><th>Créneau</th><th>Salle</th></tr></thead>
+            <tbody>${rows}</tbody>
+        </table>
+    `);
+}
+
 const bindSearch = (buttonId, handler) => {
     const button = document.getElementById(buttonId);
     const input = button.closest('.search').querySelector('input');
 
-    button.addEventListener('click', () => handler(input.value));
+    const run = () => {
+        if (combineCheckbox.checked) {
+            renderCombinedResults();
+        } else {
+            handler(input.value);
+        }
+    };
+
+    button.addEventListener('click', run);
     input.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter') handler(input.value);
+        if (e.key === 'Enter') run();
     });
 }
 
@@ -209,3 +266,25 @@ bindSearch('search-code', (value) => {
         ${occurrencesHTML}
     `);
 });
+
+//auto fill week
+
+(() => {
+    const weekInput = document.getElementById('input-semaine');
+    weekInput.value = (Math.trunc(getCurrentWeek()) % 10) + 1;
+})();
+
+//details/summary system, opened on mobile
+(() => {
+    const allDetails = document.querySelectorAll('.sections-row > section > details');
+
+    const applyResponsiveState = () => {
+        const isMobile = window.matchMedia('(max-width: 700px)').matches;
+        allDetails.forEach((details, index) => {
+            details.open = isMobile ? index === 0 : true;
+        });
+    };
+
+    applyResponsiveState();
+    window.addEventListener('resize', applyResponsiveState);
+})();

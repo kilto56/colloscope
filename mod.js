@@ -151,6 +151,57 @@ const findGroupesByCode = (code) => {
     return results;
 }
 
+const buildInstances = () => {
+    const instances = [];
+    for (const [numGroupe, semaines] of Object.entries(programmes.groupes)) {
+        for (const [semaineKey, codes] of Object.entries(semaines)) {
+            const semaine = semaineKey.replace('semaine', '');
+            for (const code of codes) {
+                const info = CODE_INDEX[code];
+                if (info) {
+                    instances.push({ numGroupe, semaine, ...info });
+                }
+            }
+        }
+    }
+    return instances;
+}
+
+const INSTANCES = buildInstances();
+
+const searchCombined = (filters = {}) => {
+    const eleveQuery = (filters.eleveQuery || '').trim().toLowerCase();
+    const numGroupe = (filters.numGroupe || '').trim();
+    const profQuery = (filters.profQuery || '').trim().toLowerCase();
+    const salleQuery = (filters.salleQuery || '').trim().toLowerCase();
+    const semaine = (filters.semaine || '').trim();
+    const code = (filters.code || '').trim().toUpperCase();
+
+    return INSTANCES.filter(instance => {
+        if (numGroupe && instance.numGroupe !== numGroupe) return false;
+        if (semaine && instance.semaine !== semaine) return false;
+        if (code && instance.code !== code) return false;
+        if (profQuery && !(instance.Professeur || '').toLowerCase().includes(profQuery)) return false;
+        if (salleQuery && !(instance.salle || '').toLowerCase().includes(salleQuery)) return false;
+
+        if (eleveQuery) {
+            const eleves = findGroupe(instance.numGroupe) || [];
+            const match = eleves.some(e => `${e.nom} ${e.prenom}`.toLowerCase().includes(eleveQuery));
+            if (!match) return false;
+        }
+
+        return true;
+    });
+}
+
+const getCurrentWeek = () => {
+    const start = new Date('2026-09-14');
+    const today = new Date();
+    const diff = ((today - start) / (1000 * 60 * 60 * 24)) / 7;
+
+    return diff;
+}
+
 export {
     findEleve,
     findGroupe,
@@ -162,6 +213,8 @@ export {
     findByProf,
     findBySalle,
     findGroupesByCode,
+    searchCombined,
     buildEleveIndex,
+    getCurrentWeek,
     CODE_INDEX
 };

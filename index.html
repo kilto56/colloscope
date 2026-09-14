@@ -4,11 +4,11 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3TSP0SYRCB"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'G-3TSP0SYRCB');
+        gtag('config', 'G-3TSP0SYRCB');
     </script>
 
     <meta charset="UTF-8">
@@ -24,68 +24,80 @@
 </head>
 <body>
     <header>
-        <h1>Colloscope Tool MP2I - <span style="color: green;">V2</span></h1>
+        <h1>Colloscope Tool MP2I - <span style="color: green;">V2.1</span> <span style="font-style: italic; color: grey; font-weight: 100; font-size: 1rem; margin-bottom: .5rem;">10/09/2026</span></h1>
     </header>
     <main>
+        <label class="combine-toggle">
+            <input type="checkbox" id="combine-queries">
+            Combiner les requêtes
+        </label>
+        <div class="sections-row">
         <section>
-            <h2>INFO ELEVES</h2>
-            <div class="contain">
-                <div>
-                    <p>CHERCHER UN ELEVE</p>
-                    <div class="search">
-                        <input type="text" placeholder="Nom de l'élève">
-                        <button id="search-student"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </div>
-                    
-                </div>
-                <div>
-                    <p>CHERCHER GROUPE</p>
-                    <div class="search">
-                        <input type="number" min="1" max="15" placeholder="Numéro du groupe">
-                        <button id="search-group"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>AUTRES RECHERCHES</h2>
-            <div class="contain">
-                <div>
-                    <p>CHERCHER PAR PROFESSEUR</p>
-                    <div class="search">
-                        <input type="text" placeholder="Nom du Professeur">
-                        <button id="search-prof"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </div>
-                </div>
-                <div>
-                    <p>CHERCHER PAR SALLE</p>
-                    <div class="search">
-                        <input type="text" placeholder="Nom de la salle">
-                        <button id="search-salle"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </div>
-                </div>
-                <div>
-                    <p>CHERCHER PAR SEMAINE</p>
-                    <div class="search">
-                        <input type="number" min="1" max="14" placeholder="Numéro de la semaine">
-                        <button id="search-semaine"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </div>
-                </div>
-                <div>
-                    <p>CHERCHER PAR CODE</p>
-                    <div class="search">
-                        <input type="text" placeholder="Numéro de code">
-                        <button id="search-code"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>RESULTAT</h2>
-            <div class="resultat">
+            <details open>
+                <summary>INFO ELEVES</summary>
+                <div class="contain">
+                    <div>
+                        <p>CHERCHER UN ELEVE</p>
+                        <div class="search">
+                            <input type="text" id="input-student" placeholder="Nom de l'élève">
+                            <button id="search-student"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
 
-            </div>
+                    </div>
+                    <div>
+                        <p>CHERCHER GROUPE</p>
+                        <div class="search">
+                            <input type="number" id="input-group" min="1" max="15" placeholder="Numéro du groupe">
+                            <button id="search-group"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </details>
         </section>
+        <section>
+            <details>
+                <summary>AUTRES RECHERCHES</summary>
+                <div class="contain">
+                    <div>
+                        <p>CHERCHER PAR PROFESSEUR</p>
+                        <div class="search">
+                            <input type="text" id="input-prof" placeholder="Nom du Professeur">
+                            <button id="search-prof"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+                    <div>
+                        <p>CHERCHER PAR SALLE</p>
+                        <div class="search">
+                            <input type="text" id="input-salle" placeholder="Nom de la salle">
+                            <button id="search-salle"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+                    <div>
+                        <p>CHERCHER PAR SEMAINE</p>
+                        <div class="search">
+                            <input type="number" id="input-semaine" min="1" max="14" placeholder="Numéro de la semaine">
+                            <button id="search-semaine"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+                    <div>
+                        <p>CHERCHER PAR CODE</p>
+                        <div class="search">
+                            <input type="text" id="input-code" placeholder="Numéro de code">
+                            <button id="search-code"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+        <section>
+            <details>
+                <summary>RESULTAT</summary>
+                <div class="resultat">
+
+                </div>
+            </details>
+        </section>
+        </div>
     </main>
     <footer>
         <p>&copy; 2026-2027 Colloscope Tool MP2I. Tous droits réservés.</p>
