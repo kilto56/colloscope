@@ -8,12 +8,11 @@
         },
         "F2": {
             "Professeur": "Mme MATHEZ",
-            "creneau": "Mercredi 14h",
+            "creneau": "Mercredi 13h45",
             "duree": "2h",
-            "salle": "E 005"
+            "salle": "B 004"
         }
     },
-
     "mathematiques": {
         "M1": {
             "Professeur": "Mme ADAM",
@@ -88,7 +87,6 @@
             "salle": "B 118"
         }
     },
-
     "informatique": {
         "I1": {
             "Professeur": "M. LE SCORNET",
@@ -115,7 +113,6 @@
             "salle": "H 210"
         }
     },
-
     "physique": {
         "P1": {
             "Professeur": "M. BOUILLON",
@@ -166,7 +163,6 @@
             "salle": "H 207bis"
         }
     },
-
     "anglais": {
         "A1": {
             "Professeur": "Mme BURLOT",
