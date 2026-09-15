@@ -16,6 +16,10 @@ import {
 const app = express();
 app.use(express.json());
 
+app.get("/", (req, res) => {
+    res.json({ "success": "Colloscope Tool MP2I API V1" });
+});
+
 app.get("/eleve/:nom/:prenom", (req, res) => {
     const numGroupe = findEleve(req.params.nom, req.params.prenom);
     if (!numGroupe) return res.status(404).json({ error: "Eleve non trouvé(e)" });
