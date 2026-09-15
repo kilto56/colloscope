@@ -1,0 +1,16 @@
+{
+  "name": "colloscope",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
