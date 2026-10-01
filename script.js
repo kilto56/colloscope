@@ -8,7 +8,8 @@ import {
     findBySalle,
     findGroupesByCode,
     searchCombined,
-    getCurrentWeek
+    getCurrentWeek,
+    getCurrentWeekNumber
 } from "./mod.js";
 
 const resultat = document.querySelector('.resultat');
@@ -24,9 +25,23 @@ const renderMessage = (msg) => {
 }
 
 
+const weekCheckbox = document.getElementById('week-queries');
+
+// true si la semaine s doit etre affichee, selon l'etat de la case "Retirer les semaines precedentes"
+const shouldShowSemaine = (s) => {
+    if (!weekCheckbox.checked) return true;
+
+    const current = getCurrentWeekNumber();
+    if (!current) return true; // avant le debut du semestre : on ne cache rien
+
+    return Number(s) >= current;
+}
+
 const planningToHTML = (planning) => {
     let rows = '';
     for (let s = 1; s <= 14; s++) {
+        if (!shouldShowSemaine(s)) continue;
+
         const items = planning[`semaine${s}`] || [];
         const itemsHTML = items.length
             ? items.map(info => `
@@ -71,7 +86,6 @@ const renderGroupePlanning = (numGroupe, planning) => {
 
 const combineCheckbox = document.getElementById('combine-queries');
 
-// Recupere la valeur de tous les champs de recherche en une seule fois
 const getAllFilters = () => ({
     eleveQuery: document.getElementById('input-student').value,
     numGroupe: document.getElementById('input-group').value,
@@ -89,7 +103,7 @@ const renderCombinedResults = () => {
         return renderMessage("Remplissez au moins un des champs de recherche ci-dessus.");
     }
 
-    const results = searchCombined(filters);
+    const results = searchCombined(filters).filter(r => shouldShowSemaine(r.semaine));
     if (results.length === 0) {
         return renderMessage("Aucun résultat pour cette combinaison de critères.");
     }

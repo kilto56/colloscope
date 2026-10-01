@@ -202,6 +202,31 @@ const getCurrentWeek = () => {
     return diff;
 }
 
+// Dates reelles de chaque semaine de colle (index 0 = semaine 1).
+// Une division lineaire (cf. getCurrentWeek) ne marche pas ici : il y a des
+// trous (vacances de Toussaint entre S5 et S6, vacances de Noel entre S11 et S12).
+const SEMAINE_DATES = [
+    '2026-09-14', '2026-09-21', '2026-09-28', '2026-10-05', '2026-10-12',
+    '2026-11-02', '2026-11-16', '2026-11-23', '2026-11-30', '2026-12-07',
+    '2026-12-14', '2027-01-04', '2027-01-11', '2027-01-18'
+];
+
+// Renvoie le numero de la semaine de colle en cours (1 a 14),
+// ou null si on est avant le debut du semestre (14/09).
+// Apres le 18/01 (derniere semaine), reste bloque a 14.
+const getCurrentWeekNumber = () => {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    let current = null;
+    for (let i = 0; i < SEMAINE_DATES.length; i++) {
+        if (today >= new Date(SEMAINE_DATES[i])) {
+            current = i + 1;
+        }
+    }
+    return current;
+}
+
 export {
     findEleve,
     findGroupe,
@@ -216,5 +241,6 @@ export {
     searchCombined,
     buildEleveIndex,
     getCurrentWeek,
+    getCurrentWeekNumber,
     CODE_INDEX
 };
