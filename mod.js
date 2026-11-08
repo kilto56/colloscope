@@ -212,15 +212,14 @@ const getCurrentWeekNumber = () => {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
-    let current = null;
     for (let i = 0; i < SEMAINE_DATES.length; i++) {
-        let semaineDate = new Date(SEMAINE_DATES[i]);
-        semaineDate.setDate(semaineDate.getDate() + 5);
-        if (today >= semaineDate) {
-            current = i + 1;
-        }
+        const samedi = new Date(`${SEMAINE_DATES[i]}T00:00:00`);
+        samedi.setDate(samedi.getDate() + 5);
+
+        if (today < samedi) return i + 1;
     }
-    return current;
+
+    return SEMAINE_DATES.length + 1;
 }
 
 export {
