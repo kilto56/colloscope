@@ -285,7 +285,7 @@ bindSearch('search-code', (value) => {
 
 (() => {
     const weekInput = document.getElementById('input-semaine');
-    weekInput.value = (Math.trunc(getCurrentWeek()) % 10) + 1;
+    weekInput.value = Math.min(getCurrentWeekNumber(), 14);
 })();
 
 //details/summary system, opened on mobile
